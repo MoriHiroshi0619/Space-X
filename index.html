@@ -4,8 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnebitX</title>
+
+    <!-- link do css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <!--  Importando o CSS Bootstrap  -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- Importando biblioteca de textos animados -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header class="header py-3 px-5">
+        <nav class="navbar navbar-expand-md navbar-transparent" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo-obc-2021-darkbg.png" id="logo" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">
+                        FALCON 9
+                    </a> 
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="#">
+                        HUMAM SPACE FLIGHT
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="f1">
+        <div class="content" data-aos="fade-up" data-aos-duration="2000">
+            <p>
+                LANÇAMENTO A CAMINHO
+            </p>
+            <h1>
+                MISSÃO ESQUIPE-3
+            </h1>
+            <button class="btn btn-outline-light mt-4 py-3 px-5">
+                SAIBA MAIS
+            </button>
+        </div>
+        <div class="arrow-div" data-aos="fade-up" data-aos-duration="2000">
+            <p>ROLE PARA BAIXO</p>
+            <img src="./img/home/arrowDown.gif" class="arrow">
+        </div>
+    </div>
+
+    <div class="f2">
+        <div class="content" data-aos="fade-right" data-aos-duration="2000">
+            <p>
+                MISSÃO CONCLUÍDA
+            </p>
+            <h1>
+                MISSÃO EQUIPE-2 RETORNOU PARA A TERRA
+            </h1>
+            <button class="btn btn-outline-light mt-4 py-3 px-5">
+                SAIBA MAIS
+            </button>
+        </div>
+    </div>
+
+    <div class="f3">
+        <div class="content" data-aos="fade-down" data-aos-duration="2000">
+            <p>
+                MISSÃO CONCLUÍDA
+            </p>
+            <h1>
+                DRAGON RETORNOU PARA A TERRA
+            </h1>
+            <button class="btn btn-outline-light mt-4 py-3 px-5">
+                SAIBA MAIS
+            </button>
+        </div>
+    </div>
+
+    <div class="f4">
+        <div class="content" data-aos="fade-down-right" data-aos-duration="2000">
+            <h1>
+                STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA
+            </h1>
+            <button class="btn btn-outline-light mt-4 py-3 px-5">
+                SAIBA MAIS
+            </button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="nav p-4">
+            <li class="nav-item mx-2 pt-1">
+                <a href="#" class="nav-link disabled" id="copy">
+                    Mori Hiroshi &#169; 2024
+                </a>
+            </li>
+            <li class="nav-item mx-2">
+                <a href="https://github.com/MoriHiroshi0619" target="_blank" class="nav-link">
+                    GitHub
+                </a>
+            </li>
+            <li class="nav-item mx-2">
+                <a href="https://www.linkedin.com/in/anderson-hiroshi-mori-correia-bb0252250/" target="_blank" class="nav-link">
+                    Linkedin
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <!-- Importando o JS Bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Importando e inicializando biblioteca de textos animados -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
