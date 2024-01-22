@@ -1,10 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* border: 1px solid rgba(255, 255, 255, 0);  */
-}
-
 .f1 {
   width: 100vw;
   height: 100vh;
@@ -29,6 +22,7 @@
   color: aliceblue;
   font-size: 0.8rem;
   text-align: center;
+  font-weight: 300;
 }
 .f1 .arrow {
   width: 100px;
@@ -118,6 +112,175 @@
         }
     }
 } */
+* {
+  /* border: 1px solid rgb(226, 109, 109); */
+}
+
+.human1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/human/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.human1 .content {
+  color: aliceblue;
+  text-shadow: 0px 0px 3px rgba(8, 8, 8, 0.635);
+  text-align: center;
+}
+.human1 .content h1 {
+  font-size: 6.5rem;
+}
+.human1 .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.human1 .arrow-div {
+  margin-top: 50px;
+  color: aliceblue;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+}
+.human1 .arrow {
+  width: 150px;
+}
+
+.human2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/human/02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.human2 .text {
+  align-self: center;
+  justify-self: center;
+  font-size: 1rem;
+  color: aliceblue;
+  padding: 30px 20px;
+  max-width: 800px;
+  text-align: center;
+  font-weight: 300;
+}
+.human2 .content {
+  align-self: flex-end;
+  max-width: 500px;
+  padding-right: 70px;
+}
+.human2 .content p {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.human2 .content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.human3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/human/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.human3 .content {
+  padding: 80px 50px;
+  color: aliceblue;
+  max-width: 700px;
+}
+.human3 .content p {
+  font-size: 1rem;
+}
+.human3 .content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.human4 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/human/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.human4 .content {
+  align-self: flex-end;
+  max-width: 500px;
+  padding-right: 70px;
+}
+.human4 .content p {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.human4 .content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.human5 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/human/05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.human5 .content {
+  padding: 80px 50px;
+  color: aliceblue;
+  max-width: 700px;
+}
+.human5 .content p {
+  font-size: 1rem;
+}
+.human5 .content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.human6 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: aliceblue;
+  padding: 200px 100px;
+}
+.human6 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.human6 .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   width: 100vw;
