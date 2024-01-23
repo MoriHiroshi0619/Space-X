@@ -9,7 +9,7 @@
 
 
 .human1{
-    @include sessaoHuman("../../img/human/01.jpg");
+    @include sessaoHuman("../img/human/01.jpg");
     display: flex;
     flex-direction: column;
 
