@@ -17,6 +17,7 @@ body{
 .header{
     width: 100vw;
     position: absolute;
+    padding: 20px 50px;
     #navbar{
         color: aliceblue;
         a{
@@ -30,6 +31,13 @@ body{
     }
     #logo{
         width: 220px;
+    }
+
+    @media screen and (max-width: 426px){
+        padding: 10px 20px;
+        #logo{
+            width: 150px;
+        }
     }
 }
 
