@@ -32,7 +32,7 @@
 }
 
 .f1{
-    @include sessao("../../img/home/01.jpg");
+    @include sessao("./../img/home/01.jpg");
     .arrow-div{
         color: aliceblue;
         font-size: 0.8rem;
