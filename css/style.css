@@ -42,7 +42,7 @@
 .f2 {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/home/03.jpg");
+  background-image: url("../img/home/03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -328,7 +328,6 @@
 }
 @media screen and (max-width: 426px) {
   .human6 {
-    height: 50vh;
     padding: 100px 40px;
   }
   .human6 .buttons {
@@ -521,7 +520,7 @@
 @media screen and (max-width: 426px) {
   .falcon5 .content {
     max-width: 280px;
-    padding-top: 250px;
+    padding-top: 150px;
     padding-left: 30px;
   }
 }
@@ -607,7 +606,6 @@
 }
 @media screen and (max-width: 426px) {
   .falcon7 {
-    height: 50vh;
     padding: 100px 40px;
   }
   .falcon7 .buttons {
