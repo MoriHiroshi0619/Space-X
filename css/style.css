@@ -112,10 +112,6 @@
         }
     }
 } */
-* {
-  /* border: 1px solid rgb(226, 109, 109); */
-}
-
 .human1 {
   width: 100vw;
   height: 100vh;
@@ -275,10 +271,6 @@
   gap: 20px;
 }
 
-* {
-  border: 1px solid rgb(255, 129, 129);
-}
-
 .falcon1 {
   width: 100vw;
   height: 100vh;
@@ -348,10 +340,6 @@
   padding: 30px;
 }
 
-.falcon4 {
-  width: 100vw;
-  height: 100vh;
-}
 .falcon4 .carrosel01 {
   width: 100vw;
   height: 100vh;
@@ -384,6 +372,14 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.falcon4 .carrosel05 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/07.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .falcon4 .content {
   max-width: 600px;
   padding-left: 100px;
@@ -399,6 +395,108 @@
 }
 .falcon4 .content h2 {
   font-size: 1.2rem;
+}
+
+.falcon5 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon5 .content {
+  max-width: 600px;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: aliceblue;
+}
+.falcon5 .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.falcon5 .content h1 {
+  font-size: 2rem;
+}
+.falcon5 .content h2 {
+  font-size: 1.2rem;
+}
+
+.falcon6 {
+  width: 100vw;
+  height: 100vh;
+}
+.falcon6 .carrosel06 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/09.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 .carrosel07 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 .carrosel08 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 .carrosel09 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 .carrosel10 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 .carrosel11 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon6 p {
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.385);
+}
+
+.falcon7 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: aliceblue;
+  padding: 200px 100px;
+}
+.falcon7 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.falcon7 .buttons {
+  display: flex;
+  gap: 20px;
 }
 
 * {

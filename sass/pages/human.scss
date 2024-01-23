@@ -7,9 +7,6 @@
     background-position: center;
 }
 
-*{
-    /* border: 1px solid rgb(226, 109, 109); */
-}
 
 .human1{
     @include sessaoHuman("../../img/human/01.jpg");
