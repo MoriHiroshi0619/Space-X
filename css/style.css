@@ -348,10 +348,38 @@
   padding: 30px;
 }
 
-.falcon4 #carrosel01 {
+.falcon4 {
+  width: 100vw;
+  height: 100vh;
+}
+.falcon4 .carrosel01 {
   width: 100vw;
   height: 100vh;
   background-image: url("../../img/falcon9/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon4 .carrosel02 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon4 .carrosel03 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.falcon4 .carrosel04 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../img/falcon9/06.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -369,8 +397,8 @@
 .falcon4 .content h1 {
   font-size: 2rem;
 }
-.falcon4 .content table {
-  background-color: red;
+.falcon4 .content h2 {
+  font-size: 1.2rem;
 }
 
 * {

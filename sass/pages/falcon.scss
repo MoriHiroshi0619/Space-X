@@ -78,17 +78,19 @@
 }
 
 .falcon4{
-    #carrosel01{
+    width: 100vw;
+    height: 100vh;
+    .carrosel01{
         @include sessaoFalcon("../../img/falcon9/03.jpg");
-    }
-    #carrosel2{
+    } 
+    .carrosel02{
         @include sessaoFalcon("../../img/falcon9/04.jpg");
-        width: 100vw;
-        height: 100vh;
-        /* background-image: url($caminho-da-imagem);
-        background-size: cover;
-        background-repeat: no-repeat;   
-        background-position: center; */
+    }
+    .carrosel03{
+        @include sessaoFalcon("../../img/falcon9/05.jpg");
+    }
+    .carrosel04{
+        @include sessaoFalcon("../../img/falcon9/06.jpg");
     }
     .content{
         max-width: 600px;
@@ -102,10 +104,10 @@
         h1{
             font-size: 2rem;
         }
-        
-        table{
-            background-color: red;
+        h2{
+            font-size: 1.2rem;
         }
+
     }
 }
 
