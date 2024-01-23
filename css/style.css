@@ -42,7 +42,7 @@
 .f2 {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/home/03.jpg");
+  background-image: url("../img/home/03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -74,7 +74,7 @@
 .f3 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/home/02.gif");
+  background-image: url("../img/home/02.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,7 +106,7 @@
 .f4 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/home/04.jpg");
+  background-image: url("../img/home/04.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
