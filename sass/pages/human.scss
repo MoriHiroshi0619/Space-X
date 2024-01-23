@@ -38,6 +38,14 @@
     .arrow{
         width: 150px;
     }
+
+    @media screen and (max-width: 426px){
+        .content{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
 }
 
 .human2{
@@ -54,12 +62,17 @@
         max-width: 800px;
         text-align: center;
         font-weight: 300;
+
+        .mail{
+            color: $hover-links;
+        }
     }
 
     .content{
         align-self: flex-end;
         max-width: 500px;
         padding-right: 70px;
+        padding-left: 45px;
         p{
             font-size: 1rem;
             color: aliceblue;
@@ -135,7 +148,7 @@
 
 .human6{
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-color: black;
     color: aliceblue;
     padding: 200px 100px;
@@ -147,10 +160,25 @@
         gap: 30px;
         text-align: center;
     }
+    
+    .mail{
+        color: $hover-links;
+    }
+    
 
     .buttons{
         display: flex;
         gap: 20px;
+    }
+
+    @media screen and (max-width: 426px){
+        height: 50vh;
+        padding: 100px 40px;
+
+        .buttons{
+            flex-direction: column;
+            gap: 35px;
+        }
     }
 }
 

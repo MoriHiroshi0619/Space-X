@@ -18,6 +18,17 @@
 .f1 .content h1 {
   font-size: 2.5rem;
 }
+@media screen and (max-width: 426px) {
+  .f1 .content {
+    padding: 330px 10px 60px 10px;
+  }
+  .f1 .content p {
+    font-size: 0.9rem;
+  }
+  .f1 .content h1 {
+    font-size: 1.8rem;
+  }
+}
 .f1 .arrow-div {
   color: aliceblue;
   font-size: 0.8rem;
@@ -48,6 +59,17 @@
 .f2 .content h1 {
   font-size: 2.5rem;
 }
+@media screen and (max-width: 426px) {
+  .f2 .content {
+    padding: 330px 10px 60px 10px;
+  }
+  .f2 .content p {
+    font-size: 0.9rem;
+  }
+  .f2 .content h1 {
+    font-size: 1.8rem;
+  }
+}
 
 .f3 {
   width: 100vw;
@@ -69,6 +91,17 @@
 .f3 .content h1 {
   font-size: 2.5rem;
 }
+@media screen and (max-width: 426px) {
+  .f3 .content {
+    padding: 330px 10px 60px 10px;
+  }
+  .f3 .content p {
+    font-size: 0.9rem;
+  }
+  .f3 .content h1 {
+    font-size: 1.8rem;
+  }
+}
 
 .f4 {
   width: 100vw;
@@ -89,6 +122,17 @@
 }
 .f4 .content h1 {
   font-size: 2.5rem;
+}
+@media screen and (max-width: 426px) {
+  .f4 .content {
+    padding: 330px 10px 60px 10px;
+  }
+  .f4 .content p {
+    font-size: 0.9rem;
+  }
+  .f4 .content h1 {
+    font-size: 1.8rem;
+  }
 }
 
 /* .f1{
@@ -146,6 +190,11 @@
 .human1 .arrow {
   width: 150px;
 }
+@media screen and (max-width: 426px) {
+  .human1 .content h1 {
+    font-size: 3rem;
+  }
+}
 
 .human2 {
   width: 100vw;
@@ -168,10 +217,14 @@
   text-align: center;
   font-weight: 300;
 }
+.human2 .text .mail {
+  color: #b9b9b9;
+}
 .human2 .content {
   align-self: flex-end;
   max-width: 500px;
   padding-right: 70px;
+  padding-left: 45px;
 }
 .human2 .content p {
   font-size: 1rem;
@@ -253,7 +306,7 @@
 
 .human6 {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-color: black;
   color: aliceblue;
   padding: 200px 100px;
@@ -266,9 +319,22 @@
   gap: 30px;
   text-align: center;
 }
+.human6 .mail {
+  color: #b9b9b9;
+}
 .human6 .buttons {
   display: flex;
   gap: 20px;
+}
+@media screen and (max-width: 426px) {
+  .human6 {
+    height: 50vh;
+    padding: 100px 40px;
+  }
+  .human6 .buttons {
+    flex-direction: column;
+    gap: 35px;
+  }
 }
 
 .falcon1 {
@@ -305,6 +371,14 @@
 .falcon1 .arrow {
   width: 150px;
 }
+@media screen and (max-width: 426px) {
+  .falcon1 .content {
+    padding: 30px;
+  }
+  .falcon1 .content h1 {
+    font-size: 3rem;
+  }
+}
 
 .falcon2 {
   background-color: black;
@@ -322,6 +396,17 @@
   font-size: 1rem;
   font-weight: 300;
 }
+@media screen and (max-width: 426px) {
+  .falcon2 {
+    padding: 0 30px;
+  }
+  .falcon2 h1 {
+    font-size: 3rem;
+  }
+  .falcon2 p {
+    font-size: 0.8rem;
+  }
+}
 
 .falcon3 {
   width: 100vw;
@@ -338,6 +423,11 @@
   max-width: 600px;
   font-size: 1.5rem;
   padding: 30px;
+}
+@media screen and (max-width: 426px) {
+  .falcon3 .content {
+    max-width: 350px;
+  }
 }
 
 .falcon4 .carrosel01 {
@@ -396,6 +486,13 @@
 .falcon4 .content h2 {
   font-size: 1.2rem;
 }
+@media screen and (max-width: 426px) {
+  .falcon4 .content {
+    max-width: 350px;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+}
 
 .falcon5 {
   width: 100vw;
@@ -420,6 +517,13 @@
 }
 .falcon5 .content h2 {
   font-size: 1.2rem;
+}
+@media screen and (max-width: 426px) {
+  .falcon5 .content {
+    max-width: 280px;
+    padding-top: 250px;
+    padding-left: 30px;
+  }
 }
 
 .falcon6 {
@@ -481,7 +585,7 @@
 
 .falcon7 {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-color: black;
   color: aliceblue;
   padding: 200px 100px;
@@ -494,9 +598,22 @@
   gap: 30px;
   text-align: center;
 }
+.falcon7 .mail {
+  color: #b9b9b9;
+}
 .falcon7 .buttons {
   display: flex;
   gap: 20px;
+}
+@media screen and (max-width: 426px) {
+  .falcon7 {
+    height: 50vh;
+    padding: 100px 40px;
+  }
+  .falcon7 .buttons {
+    flex-direction: column;
+    gap: 35px;
+  }
 }
 
 * {

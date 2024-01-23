@@ -39,6 +39,15 @@
     .arrow{
         width: 150px;
     }
+
+    @media screen and (max-width: 426px){
+        .content{
+            padding: 30px;
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
 }
 
 .falcon2{
@@ -58,6 +67,15 @@
         font-size: 1rem;
         font-weight: 300;
     }
+    @media screen and (max-width: 426px){
+        padding: 0 30px;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
 }
 
 .falcon3{
@@ -71,6 +89,11 @@
         max-width: 600px;
         font-size: 1.5rem;
         padding: 30px;
+    }
+    @media screen and (max-width: 426px){
+        .content{
+            max-width: 350px;
+        }
     }
 }
 
@@ -106,6 +129,13 @@
             font-size: 1.2rem;
         }
     }
+    @media screen and (max-width: 426px){
+        .content{
+            max-width: 350px;
+            padding-top: 40px;
+            padding-left: 30px;
+        }
+    }
 }
 
 .falcon5{
@@ -124,6 +154,13 @@
         }
         h2{
             font-size: 1.2rem;
+        }
+    }
+    @media screen and (max-width: 426px){
+        .content{
+            max-width: 280px;
+            padding-top: 250px;
+            padding-left: 30px;
         }
     }
 }
@@ -157,7 +194,7 @@
 
 .falcon7{
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-color: black;
     color: aliceblue;
     padding: 200px 100px;
@@ -170,9 +207,23 @@
         text-align: center;
     }
 
+    .mail{
+        color: $hover-links;
+    }
+
     .buttons{
         display: flex;
         gap: 20px;
+    }
+
+    @media screen and (max-width: 426px){
+        height: 50vh;
+        padding: 100px 40px;
+
+        .buttons{
+            flex-direction: column;
+            gap: 35px;
+        }
     }
 }
 
