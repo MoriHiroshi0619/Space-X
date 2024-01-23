@@ -49,7 +49,7 @@
 }
 
 .human2{
-    @include sessaoHuman("../../img/human/02.jpg");
+    @include sessaoHuman("../img/human/02.jpg");
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -87,7 +87,7 @@
 }
 
 .human3{
-    @include sessaoHuman("../../img/human/03.jpg");
+    @include sessaoHuman("../img/human/03.jpg");
 
     .content{
         padding: 80px 50px;
@@ -106,7 +106,7 @@
 }
 
 .human4{
-    @include sessaoHuman("../../img/human/04.jpg");
+    @include sessaoHuman("../img/human/04.jpg");
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -128,7 +128,7 @@
 }
 
 .human5{
-    @include sessaoHuman("../../img/human/05.jpg");
+    @include sessaoHuman("../img/human/05.jpg");
 
     .content{
         padding: 80px 50px;

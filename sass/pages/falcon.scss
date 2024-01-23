@@ -10,7 +10,7 @@
 
 
 .falcon1{
-    @include sessaoFalcon("../../img/falcon9/01.jpg");
+    @include sessaoFalcon("../img/falcon9/01.jpg");
     display: flex;
     flex-direction: column;
 
@@ -79,7 +79,7 @@
 }
 
 .falcon3{
-    @include sessaoFalcon("../../img/falcon9/02.jpg");
+    @include sessaoFalcon("../img/falcon9/02.jpg");
 
     color: aliceblue;
     display: flex;
@@ -99,19 +99,19 @@
 
 .falcon4{
     .carrosel01{
-        @include sessaoFalcon("../../img/falcon9/03.jpg");
+        @include sessaoFalcon("../img/falcon9/03.jpg");
     } 
     .carrosel02{
-        @include sessaoFalcon("../../img/falcon9/04.jpg");
+        @include sessaoFalcon("../img/falcon9/04.jpg");
     }
     .carrosel03{
-        @include sessaoFalcon("../../img/falcon9/05.jpg");
+        @include sessaoFalcon("../img/falcon9/05.jpg");
     }
     .carrosel04{
-        @include sessaoFalcon("../../img/falcon9/06.jpg");
+        @include sessaoFalcon("../img/falcon9/06.jpg");
     }
     .carrosel05{
-        @include sessaoFalcon("../../img/falcon9/07.jpg");
+        @include sessaoFalcon("../img/falcon9/07.jpg");
     }
     .content{
         max-width: 600px;
@@ -139,7 +139,7 @@
 }
 
 .falcon5{
-    @include sessaoFalcon("../../img/falcon9/08.jpg");
+    @include sessaoFalcon("../img/falcon9/08.jpg");
     .content{
         max-width: 600px;
         padding-left: 100px;
@@ -169,22 +169,22 @@
     width: 100vw;
     height: 100vh;
     .carrosel06{
-        @include sessaoFalcon("../../img/falcon9/09.jpg");
+        @include sessaoFalcon("../img/falcon9/09.jpg");
     } 
     .carrosel07{
-        @include sessaoFalcon("../../img/falcon9/10.jpg");
+        @include sessaoFalcon("../img/falcon9/10.jpg");
     } 
     .carrosel08{
-        @include sessaoFalcon("../../img/falcon9/11.jpg");
+        @include sessaoFalcon("../img/falcon9/11.jpg");
     } 
     .carrosel09{
-        @include sessaoFalcon("../../img/falcon9/12.jpg");
+        @include sessaoFalcon("../img/falcon9/12.jpg");
     } 
     .carrosel10{
-        @include sessaoFalcon("../../img/falcon9/13.jpg");
+        @include sessaoFalcon("../img/falcon9/13.jpg");
     } 
     .carrosel11{
-        @include sessaoFalcon("../../img/falcon9/14.jpg");
+        @include sessaoFalcon("../img/falcon9/14.jpg");
     } 
     p{
         font-size: 1.2rem;

@@ -199,7 +199,7 @@
 .human2 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/human/02.jpg");
+  background-image: url("../img/human/02.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -239,7 +239,7 @@
 .human3 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/human/03.jpg");
+  background-image: url("../img/human/03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -260,7 +260,7 @@
 .human4 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/human/04.jpg");
+  background-image: url("../img/human/04.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -286,7 +286,7 @@
 .human5 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/human/05.jpg");
+  background-image: url("../img/human/05.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -340,7 +340,7 @@
 .falcon1 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/01.jpg");
+  background-image: url("../img/falcon9/01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -411,7 +411,7 @@
 .falcon3 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/02.jpg");
+  background-image: url("../img/falcon9/02.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -433,7 +433,7 @@
 .falcon4 .carrosel01 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/03.jpg");
+  background-image: url("../img/falcon9/03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -441,7 +441,7 @@
 .falcon4 .carrosel02 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/04.jpg");
+  background-image: url("../img/falcon9/04.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -449,7 +449,7 @@
 .falcon4 .carrosel03 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/05.jpg");
+  background-image: url("../img/falcon9/05.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -457,7 +457,7 @@
 .falcon4 .carrosel04 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/06.jpg");
+  background-image: url("../img/falcon9/06.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -465,7 +465,7 @@
 .falcon4 .carrosel05 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/07.jpg");
+  background-image: url("../img/falcon9/07.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -497,7 +497,7 @@
 .falcon5 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/08.jpg");
+  background-image: url("../img/falcon9/08.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -533,7 +533,7 @@
 .falcon6 .carrosel06 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/09.jpg");
+  background-image: url("../img/falcon9/09.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -541,7 +541,7 @@
 .falcon6 .carrosel07 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/10.jpg");
+  background-image: url("../img/falcon9/10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -549,7 +549,7 @@
 .falcon6 .carrosel08 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/11.jpg");
+  background-image: url("../img/falcon9/11.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -557,7 +557,7 @@
 .falcon6 .carrosel09 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/12.jpg");
+  background-image: url("../img/falcon9/12.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -565,7 +565,7 @@
 .falcon6 .carrosel10 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/13.jpg");
+  background-image: url("../img/falcon9/13.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -573,7 +573,7 @@
 .falcon6 .carrosel11 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../img/falcon9/14.jpg");
+  background-image: url("../img/falcon9/14.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
