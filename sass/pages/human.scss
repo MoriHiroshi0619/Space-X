@@ -84,6 +84,20 @@
             color: aliceblue;
         }
     }
+    @media screen and (max-width: 426px){
+        .content{
+            padding-left: 80px;
+            padding-right: 23px;
+            
+            display: flex;
+            flex-direction: column;
+
+            button{
+                align-self: flex-end;
+                width: 178px;
+            }
+        }
+    }
 }
 
 .human3{
@@ -123,6 +137,18 @@
             font-size: 3rem;
             font-weight: 800;
             color: aliceblue;
+        }
+    }
+    @media screen and (max-width: 426px){
+        padding: 100px 35px;
+        .content{
+            padding-right: 0px;
+            display: flex;
+            flex-direction: column;
+            button{
+                align-self: flex-end;
+                width: 178px;
+            }
         }
     }
 }
