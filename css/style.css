@@ -449,6 +449,15 @@
   font-size: 1.5rem;
   padding: 30px;
 }
+.falcon3 .content .table-transparent {
+  background-color: transparent !important;
+}
+.falcon3 .content .table-transparent tr {
+  background-color: transparent !important;
+}
+.falcon3 .content .table-transparent td {
+  background-color: transparent !important;
+}
 @media screen and (max-width: 426px) {
   .falcon3 .content {
     max-width: 350px;
@@ -497,7 +506,7 @@
 }
 .falcon4 .content {
   max-width: 600px;
-  padding-left: 100px;
+  padding-left: 120px;
   padding-top: 100px;
   color: aliceblue;
 }
@@ -511,10 +520,14 @@
 .falcon4 .content h2 {
   font-size: 1.2rem;
 }
+.falcon4 .content table td {
+  color: aliceblue;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.48);
+}
 @media screen and (max-width: 426px) {
   .falcon4 .content {
-    max-width: 350px;
-    padding-top: 40px;
+    max-width: 300px;
+    padding-top: 80px;
     padding-left: 30px;
   }
 }
@@ -543,9 +556,13 @@
 .falcon5 .content h2 {
   font-size: 1.2rem;
 }
+.falcon5 .content table td {
+  color: aliceblue;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.48);
+}
 @media screen and (max-width: 426px) {
   .falcon5 .content {
-    max-width: 280px;
+    max-width: 250px;
     padding-top: 150px;
     padding-left: 30px;
   }
